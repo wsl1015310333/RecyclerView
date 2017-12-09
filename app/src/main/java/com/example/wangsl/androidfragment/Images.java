@@ -23,7 +23,6 @@ public class Images {
             "http://img.my.csdn.net/uploads/201508/05/1438760500_6063.jpg",
             "http://img.my.csdn.net/uploads/201508/05/1438760499_6304.jpeg",
             "http://img.my.csdn.net/uploads/201508/05/1438760499_5081.jpg",
-
             "http://img.my.csdn.net/uploads/201508/05/1438760445_3283.jpg",
             "http://img.my.csdn.net/uploads/201508/05/1438760444_8623.jpg",
             "http://img.my.csdn.net/uploads/201508/05/1438760444_6822.jpg",
@@ -49,7 +48,6 @@ public class Images {
             "http://img.my.csdn.net/uploads/201508/05/1438760500_6063.jpg",
             "http://img.my.csdn.net/uploads/201508/05/1438760499_6304.jpeg",
             "http://img.my.csdn.net/uploads/201508/05/1438760499_5081.jpg",
-
             "http://img.my.csdn.net/uploads/201508/05/1438760445_3283.jpg",
             "http://img.my.csdn.net/uploads/201508/05/1438760444_8623.jpg",
             "http://img.my.csdn.net/uploads/201508/05/1438760444_6822.jpg",

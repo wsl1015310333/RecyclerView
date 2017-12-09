@@ -17,27 +17,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
-
 import java.io.IOException;
 import java.lang.ref.WeakReference;
-
 /**
  * Created by zyh on 2015/9/15.
  */
 public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAdapter.ViewHolder> {
-
     private String [] mImages;
     private Context mContext;
     private LayoutInflater mInflater;
-
     private Bitmap mBitmap;
-
     private LruCache<String ,BitmapDrawable>mMemoryCache;
-
     public MyRecyclerViewAdapter(Context context,String [] imagesUrls){
         this.mContext= context;
         mImages = imagesUrls;
@@ -110,6 +103,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
         }
         return true;
     }
+
     /**
      * 新建一个类 继承BitmapDrawable
      * 目的： BitmapDrawable 和DownLoadTask建立弱引用关联
@@ -208,10 +202,6 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
             }
             return null;
         }
-
-
-
-
         @Override
         protected void onPostExecute(BitmapDrawable drawable) {
             super.onPostExecute(drawable);
