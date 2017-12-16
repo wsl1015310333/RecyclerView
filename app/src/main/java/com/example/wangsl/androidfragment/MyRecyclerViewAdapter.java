@@ -82,6 +82,8 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
     private void addBitmapDrawableToMemoryCache(String imageUrl,BitmapDrawable drawable){
         if (getBitmapDrawableFromMemoryCache(imageUrl) == null ){
             mMemoryCache.put(imageUrl, drawable);
+
+
         }
     }
 
